@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo=TRUE, cache=FALSE, message=FALSE, warning=FALSE)
 ```
 
 ```{r loaddataset}
-unzip("repdata%2Fdata%2Factivity.zip")
+unzip("repdata_data_activity.zip")
 Activity <- read.csv("activity.csv", header = TRUE, na.strings = "NA")
 ```
 
